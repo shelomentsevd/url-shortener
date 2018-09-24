@@ -1,3 +1,4 @@
 .idea/
 url-shortener.iml
 src/v/
+vendor/src
