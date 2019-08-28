@@ -28,6 +28,12 @@
 			"branch": "master"
 		},
 		{
+			"importpath": "github.com/go-redis/redis",
+			"repository": "https://github.com/go-redis/redis",
+			"revision": "d19aba07b47683ef19378c4a4d43959672b7cec8",
+			"branch": "master"
+		},
+		{
 			"importpath": "github.com/gorilla/handlers",
 			"repository": "https://github.com/gorilla/handlers",
 			"revision": "7e0369fae54b097612a946bc6709f3a3fbccb3de",
