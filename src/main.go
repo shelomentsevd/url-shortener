@@ -4,6 +4,7 @@ import (
 	"net/http"
 	"os"
 	"os/signal"
+	"routes"
 	"syscall"
 
 	"configuration"
@@ -19,7 +20,7 @@ func main() {
 		logrus.Fatalf("configuration init error: %v", err)
 	}
 
-	r := mux.NewRouter()
+	r := routes.NewRouter()
 
 	// TODO: Middleware setup: metrics and other stuff
 
