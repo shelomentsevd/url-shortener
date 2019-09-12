@@ -1,15 +1,14 @@
 package main
 
 import (
+	"context"
 	"net/http"
 	"os"
 	"os/signal"
-	"routes"
 	"syscall"
 
-	"configuration"
-	"context"
-
+	"github.com/shelomentsevd/url-shortener/configuration"
+	"github.com/shelomentsevd/url-shortener/routes"
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"

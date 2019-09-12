@@ -1,10 +1,10 @@
 package routes
 
 import (
-	"handler"
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/shelomentsevd/url-shortener/handler"
 )
 
 func NewRouter() *mux.Router {

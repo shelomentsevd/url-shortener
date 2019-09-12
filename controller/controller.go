@@ -1,8 +1,9 @@
 package controller
 
 import (
-	"db"
 	"fmt"
+	
+        "github.com/shelomentsevd/url-shortener/db"
 )
 
 const urlLength = 5

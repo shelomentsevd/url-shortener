@@ -1,10 +1,11 @@
 package handler
 
 import (
-	"controller"
 	"errors"
 	"net/http"
 	"strings"
+	
+        "github.com/shelomentsevd/url-shortener/controller"
 )
 
 const (
