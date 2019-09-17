@@ -9,6 +9,7 @@ import (
 
 	"github.com/shelomentsevd/url-shortener/configuration"
 	"github.com/shelomentsevd/url-shortener/routes"
+
 	"github.com/gorilla/handlers"
 	"github.com/gorilla/mux"
 	"github.com/sirupsen/logrus"

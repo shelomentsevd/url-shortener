@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 	"strings"
-	
-        "github.com/shelomentsevd/url-shortener/controller"
+
+	"github.com/shelomentsevd/url-shortener/controller"
 )
 
 const (
