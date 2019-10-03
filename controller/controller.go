@@ -10,7 +10,7 @@ const urlLength = 5
 
 type Controller interface {
 	Save(url string) (string, error)
-	Get(key string) error
+	Get(key string) (string, error)
 }
 
 type URLShortener struct {
@@ -40,7 +40,8 @@ func (us *URLShortener) Save(url string) (string, error) {
 	return key, nil
 }
 
-func (us *URLShortener) Get(key string) error {
+func (us *URLShortener) Get(key string) (string, error) {
+	var url string
 
-	return nil
+	return url, nil
 }
