@@ -31,7 +31,12 @@ func TestRedisDatabase_Find(t *testing.T) {
 }
 
 func TestRedisDatabase_Insert(t *testing.T) {
+	err := db.Insert("rndurl", "http://youtube.com")
+	require.NoError(t, err)
 
+	url, err := db.Find("rndurl")
+	require.NoError(t, err)
+	require.Equal(t, "rndurl", url)
 }
 
 func TestRedisDatabaseConcurrency(t *testing.T) {
